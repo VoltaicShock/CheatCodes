@@ -1,13 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ICities;
+﻿using ICities;
 
-namespace CheatCodes
+namespace CheatCodesMod
 {
-    public class CheatCodes
+    public class CitiesSkylinesCheatCodes : IUserMod
     {
+        public string Name
+        {
+            get { return "Cities Skylines Cheat Codes"; }
+        }
+
+        public string Description
+        {
+            get { return "Cities Skylines Cheat Codes Mod"; }
+        }
     }
 }
