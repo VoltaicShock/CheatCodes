@@ -19,7 +19,8 @@ namespace CheatCodesMod
         {   
             UIHelperBase groupCheatCodeSettings = helper.AddGroup("Cheat Code Settings"); 
 
-            groupCheatCodeSettings.AddSpace(250);
+            groupCheatCodeSettings.AddSpace(10);
+            //groupCheatCodeSettings.AddDropdown("Shortcut 1", new string[] { "Control", "Command" }, -1, (index) => CheatCodeSettings.SaveSettings(index));
             groupCheatCodeSettings.AddButton("Save Settings", CheatCodeSettings.SaveSettings);
         }
     }

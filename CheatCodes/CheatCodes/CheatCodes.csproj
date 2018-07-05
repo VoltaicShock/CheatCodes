@@ -56,6 +56,8 @@
   <ItemGroup>
     <Compile Include="CheatCodes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\CheatCodesPanel.cs" />
+    <Compile Include="UI\CheatCodesPanelLoader.cs" />
     <Compile Include="UserSettings\CheatCodeSettings.cs" />
     <Compile Include="UI\CheatCodesOnDemandLoader.cs" />
     <Compile Include="UI\CheatCodesUserInterfaceComponent.cs" />
